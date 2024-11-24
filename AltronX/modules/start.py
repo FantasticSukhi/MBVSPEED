@@ -5,14 +5,14 @@ import telethon
 
 PythonButton = [
         [
-        Button.inline("☢️𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦☢️", data="help_back")
+        Button.inline("¢σммαη∂ѕ", data="help_back")
         ],
         [
-        Button.url("☢️𝗖𝗛𝗔𝗡𝗡𝗘𝗟☢️", "https://t.me/MBV_NETWORK"),
-        Button.url("☢️𝗦𝗨𝗣𝗣𝗢𝗥𝗧☢️", "https://t.me/MBV_CHATS")
+        Button.url("¢нαηηєℓ", "https://t.me/MBV_NETWORK"),
+        Button.url("ѕυρρσят", "https://t.me/MBV_CHATS")
         ],
         [
-        Button.url("☢️𝗢𝗪𝗡𝗘𝗥☢️", "https://t.me/BLACKMAMBA_HU_VRO")
+        Button.url("σωηєя", "https://t.me/BLACKMAMBA_HU_VRO")
         ]
         ]
 
