@@ -17,7 +17,7 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", "Toxicplugin"))
 
-print("\☢️𝐓𝐎𝐗𝐈𝐂☢️ 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓𝐒 𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘 😎🤘🏻\nᴍʏ ᴍᴀsᴛᴇʀ ---> @TOHAR_BAAPU_XD")
+print("\мвν ѕραмвσтѕ ∂єρℓσує∂ ѕυ¢¢єѕѕƒυℓℓу 😎🤘🏻\nᴍʏ ᴍᴀsᴛᴇʀ ---> @MBV_NETWORK")
 
 
 async def main():
