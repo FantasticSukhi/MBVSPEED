@@ -10,25 +10,25 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 
 #values
-API_ID = 21752239
-API_HASH = "c8b3165d3724af66069ab56d110d7a65"
+API_ID = 20353207
+API_HASH = "e5b2ac2f9c37bda345fa9fb5ade66961"
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
 HEROKU_APP_NAME = config("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = config("HEROKU_API_KEY", None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-BOT_TOKEN2 = config("BOT_TOKEN2", default=None)
-BOT_TOKEN3 = config("BOT_TOKEN3", default=None)
-BOT_TOKEN4 = config("BOT_TOKEN4", default=None)
-BOT_TOKEN5 = config("BOT_TOKEN5", default=None)
-BOT_TOKEN6 = config("BOT_TOKEN6", default=None)
-BOT_TOKEN7 = config("BOT_TOKEN7", default=None)
-BOT_TOKEN8 = config("BOT_TOKEN8", default=None)
-BOT_TOKEN9 = config("BOT_TOKEN9", default=None)
-BOT_TOKEN10 = config("BOT_TOKEN10", default=None)
+BOT_TOKEN = config("7549765620:AAEIoTo3gRIHXpGeqmBD0OGZ0Q2K4bgbA3k", default=None)
+BOT_TOKEN2 = config("7788120736:AAGrVgy8eFc8Rl9qCTofg2EPAlhlKc94JiQ", default=None)
+BOT_TOKEN3 = config("8017678725:AAG8iACQO-Z_LPECI2ayVSWWlphtRpasdD8", default=None)
+BOT_TOKEN4 = config("7865510363:AAHhw7-QRN_gYQTouURuAVJts-qeGJoMU1M", default=None)
+BOT_TOKEN5 = config("7624556287:AAFjOCUq37jqACq_4cstGTAQZKG5Q_7jd3o", default=None)
+BOT_TOKEN6 = config("7705144126:AAGWGWMGEQ9q1-BhN4ZmJr8LJ8kSAVBqlvk", default=None)
+BOT_TOKEN7 = config("7664438688:AAG6OUxQbReI2BoqSGd31oH7lpsWevLcrHs", default=None)
+BOT_TOKEN8 = config("7715802027:AAGMVpsNm60A6ZF0IJTQIQ3MdUnTTNcvA3o", default=None)
+BOT_TOKEN9 = config("7460750510:AAGhB6mKGIMhAZQszh3jUQqYUH_NpCmqlBw", default=None)
+BOT_TOKEN10 = config("7603228174:AAHpLlQgFmRDdRD3tRl9IlwMWnCjsBfcIZE", default=None)
 SUDO_USERS = list(map(int, getenv("SUDO_USER").split()))
-SUDO_USERS.append(1939017724)
-SUDO_USERS.append(1338679175)
-SUDO_USERS.append(6350295776)
+SUDO_USERS.append(6713994904)
+SUDO_USERS.append(6444118836)
+SUDO_USERS.append(7361908601)
 
 OWNER_ID = int(os.environ.get("OWNER_ID", None))
 
