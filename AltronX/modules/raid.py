@@ -104,34 +104,34 @@ async def _(e):
             a = await e.client.get_entity(message)
             user_id = int(a.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ ᴛᴏxɪᴄ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» у тσσ мвν ωαℓє н яє", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
-                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» у тσσ мвν ωαℓє н яє", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» ¢нι ναι ρнℓє ∂єкн ℓє кση н ує ѕυ∂σ υѕєя н нмαяα...... αυкαтℓєѕѕ кι∂z", parse_mode=None, link_preview=None)
             else:
                 que[user_id] = []
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ʜᴇʜᴇ..🙃 ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None)
+                await e.reply("» нєнє αв яєρℓу кαяηє ρє тєяєкσ gαℓιуαη ρ∂єηgι !! ✅", parse_mode=None, link_preview=None)
 
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             user_id = int(b.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ ᴛᴏxɪᴄ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» αяє у тσσ мвν ωαℓє н", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» αяє у тσσ мвν ωαℓє н", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» ¢нι ναι ρнℓє ∂єкн ℓє кση н ує ѕυ∂σ υѕєя н нмαяα...... αυкαтℓєѕѕ кι∂z", parse_mode=None, link_preview=None)
             else:
                 que[user_id] = []
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+                await e.reply("» нєнє αв яєρℓу кαяηє ρє тєяєкσ gαℓιуαη ρ∂єηgι !! ✅", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
@@ -161,7 +161,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» нєнє αв яєρℓу кαяηє ρє тєяєкσ gαℓιуαη ρ∂єηgι !! ✅", parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -171,7 +171,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» нєнє αв яєρℓу кαяηє ρє тєяєкσ gαℓιуαη ρ∂єηgι !! ✅", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
